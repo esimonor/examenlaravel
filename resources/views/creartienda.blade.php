@@ -7,12 +7,13 @@
 <h1>Insertar tienda</h1>
 <form action="addshop" method="GET">
 @csrf
-    <input type="number" placeholder="id">
-    <input type="text" placeholder="nombre">
-    <input type="text" placeholder="descripcion">
-    <input type="password" placeholder="contraseña">
-    <input type="email" placeholder="correo">
-    <input type="number" placeholder="likes">
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="nombre" placeholder="nombre">
+    <input type="text" id="descripcion" placeholder="descripcion">
+    <input type="password" id="contraseña" placeholder="contraseña">
+    <input type="email" id="correo" placeholder="correo">
+    <input type="number" id="likes" placeholder="likes">
+    <br>
     <input type="submit" value="añadir tienda">
     </form>
 @endsection
