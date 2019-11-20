@@ -15,7 +15,6 @@ class Shops extends Migration
     {
         //
     }
-    
 
     /**
      * Reverse the migrations.

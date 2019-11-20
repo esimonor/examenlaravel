@@ -18,6 +18,15 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('creartienda', function() {
+    return view('creartienda');
+})->name('creartienda');
+
+Route::get('listado', function() {
+    return view('listado');
+})->name('listado');
+
+Route::get('addshop', 'ShopController@addshop')->name('addshop');
 Route::get('tiendas/create','ShopController@create')->name('tiendas.create');
 Route::post('tiendas/store','ShopController@store')->name('tiendas.store');
 Route::get('productos/index','ProductController@index')->name('productos.index');

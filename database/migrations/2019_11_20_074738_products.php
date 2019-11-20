@@ -15,15 +15,7 @@ class Products extends Migration
     {
         //
     }
-    public function insertar(){
-    products::Insert(['id'=>$id]);
-    products::Insert(['name'=>$name]);
-    products::Insert(['description'=>$description]);
-    products::Insert(['stock'=>$stock]);
-    products::Insert(['price'=>$price]);
-    products::Insert(['created_at'=>$created]);
-    products::Insert(['updated_at'=>$updated]);
-    }
+    
 
     /**
      * Reverse the migrations.
